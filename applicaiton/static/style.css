@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); 
+  html {
+    background-color: #292c33; }
+
+    body {
+      width: fit-content;
+      max-width: 80%;
+      margin: auto;
+      font-family: 'Open Sans', sans-serif;
+      color: #cccccc; }
+      body p {
+        font-size: 2.5vh; }
+      body h1 {
+        font-size: 3.5vh; }
+      body a {
+        color: #909090;
+        text-decoration: none; }
+      body a:hover {
+        color: #dddddd; }
+      body header a, body header p {
+        margin-right: 1.2em; }
+      body header * {
+        display: inline; }
+      body img {
+        display: block;
+        width: 100%;
+        margin: auto; }

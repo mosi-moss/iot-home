@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Dashboard</h1>
+    <img src="{{ url_for('camera_feed') }}"/>
+    <p>{{text}}</p>
+    <p>
+        <script>
+            const obj = JSON.parse(json)
+        </script>
+    </p>
+    <p>temperature: {{temperature}} C</p>
+    <p>humidity {{humidity}}%</p>
+{% endblock content %}
